@@ -63,6 +63,7 @@ const handleClick = (event) => {
     taskArray = taskArray.filter(task => task.id != taskId)
     render()
   }
+  // исправил
   if (clickedItemName === "todo-checkbox") {
     taskArray.forEach(task => {
       if (taskId == task.id) {

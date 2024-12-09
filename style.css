@@ -1,18 +1,16 @@
-body{
-  background: #da4a61;
+body {
+  background: linear-gradient(to bottom, #e40303, #ff8c00, #ffed00, #008026, #004dff, #750787, #d5008f);
   justify-content: center;
   align-items: flex-start;
   margin: 0;
 }
 
-.container {
-  text-align: center;
-}
-
 .title {
   font-size: 3em;
   padding-top: 5%;
-  color: #fff;
+  background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .input-container {
@@ -28,6 +26,7 @@ body{
   border: 2px solid #000;
   border-radius: 5px 0 0 15px;
   margin: 0;
+  color: #000;
 }
 
 .input-container button {
@@ -38,6 +37,7 @@ body{
   background-color: #fff;
   cursor: pointer;
   margin: 0;
+  color: #000;
 }
 
 .select-all-container{
@@ -54,6 +54,9 @@ body{
 .select-all-container p{
   margin-left: 1em;
   font-size: 1.5em;
+  background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .list-container{
@@ -96,6 +99,9 @@ body{
   overflow-wrap: break-word;
   word-wrap: break-word;
   white-space: normal;
+  background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .todo-input {
@@ -105,6 +111,9 @@ body{
   background-color: aqua;
   text-align: center;
   align-items: center;
+  background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .todo-delete {
@@ -136,7 +145,6 @@ body{
   cursor: pointer;
   font-size: 70%;
   color: blue;
-
 }
 
 .bottom-menu-unselected {
@@ -147,7 +155,6 @@ body{
   cursor: pointer;
   font-size: 70%;
   color: aqua;
-
 }
 
 .button-delete-all {
@@ -176,6 +183,7 @@ body{
   border: black;
   margin-top: 1%;
 }
+
 .page-number-unselected {
   border-radius: 50%;
   width: 40px;
